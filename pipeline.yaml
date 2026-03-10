@@ -1,0 +1,15 @@
+pipeline:
+  - step: data_cleaning
+    notebook: EDA/01_data_cleaning_.ipynb
+
+  - step: feature_selection
+    notebook: EDA/feature_selection.ipynb
+
+  - step: feature_engineering
+    notebook: EDA/FeatureEng_.ipynb
+
+  - step: modeling
+    notebook: Modeling/model_training.ipynb
+
+  - step: test_model
+    notebook: Model_on_Test_data/test_model_.ipynb
